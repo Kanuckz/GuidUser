@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+        /* CLASSES NAVBAR */
+
+.menu{
+    width: 100%;
+    height: 55px;
+    background-color: #505050;
+    position: fixed;  
+    
+}
+
+.menu ul{
+    list-style: none;
+    position: relative;
+    float: right;
+}
+
+.menu ul li{
+    width: 150px;
+    float: left;
+    
+}
+
+.menu a{
+    padding: 18px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #505050;
+    color: white;
+    font-size: 15px;
+    font-family: 'Jura', sans-serif;
+}
+
+.menu ul a:hover{
+    background-color: #93c52f;
+    color: black;
+}
+
+        /* ICON DA NAVBAR */
+
+.icon{
+    margin-left: 20px;
+    margin-top: 5px;
+    
+}
+
+h1{
+    display: inline;
+    position: absolute;
+    margin: 20px 0 0 10px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Jura', sans-serif;
+}
+
+#bt-menu{
+    margin-top: 67px;
+    position: absolute;
+    
+    display: none;
+}
+
+label[for="bt-menu"]{
+    background-color: #505050;
+    position: absolute;
+    margin-top: -2px;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    display: none;
+}
+
+.section1{
+    width: 100%;
+    background-image: url(img/fundosb.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 500px;
+    border-bottom: 10px solid #363538;
+}
+
+.tih3{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 34px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.sobre{
+    width: 58%;
+    font-family: 'Jura', sans-serif;
+    padding-top: 60px;
+    margin-left: 55px;
+    float: left;
+}
+
+.p1{
+    font-size: 24px;
+    padding-top: 15px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.sobreimg{
+    float: right;
+    padding-top: 180px;
+    margin-right: 125px;
+}
+
+.check{
+    height: 165px;
+}
+
+.section2{
+    background-image: url(img/fundo4.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-bottom: 10px solid #363538;
+}
+
+.sobre2{
+    width: 58%;
+    font-family: 'Jura', sans-serif;
+    padding-top: 60px;
+    margin-left: 55px;
+    float: right;
+    color: white;
+}
+
+.p2{
+    font-size: 24px;
+    padding-top: 15px;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+}
+
+.tih3-2{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 34px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.sobreimg2{
+    float: left;
+    padding-top: 152px;
+    margin-left: 80px;
+}
+
+.section3{
+    background-image: url(img/fundosb3.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.sobre3{
+    width: 58%;
+    font-family: 'Jura', sans-serif;
+    padding-top: 60px;
+    margin-left: 55px;
+    float: left;
+}
+
+.tih3-3{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 34px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.p3{
+    font-size: 24px;
+    padding-top: 15px;
+    color: white;
+    text-shadow: 2px 2px 1px black;         
+}
+
+.sobreimg3{
+    float: right;
+    padding-top: 140px;
+    margin-right: 125px;
+}
+
+footer{
+    display: flex;
+    /* width: 100%; */
+    height: 150px;
+    background-color: #363538;
+    padding: 20px ;
+    font-size: 15px;
+    font-family: 'Jura', sans-serif;
+}
+
+
+footer div ul li{
+    list-style-type: none;
+    
+}
+
+footer div ul a{
+    color: inherit;
+    
+}
+
+footer p{
+    font-size: 15px;
+}
+
+footer .rodape {
+    width: calc(33.33% - 13.3px);
+}
+
+
+.ft-p{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    
+}
+
+.ft-text{
+    font-size: 13px;
+    color: white;
+    float: left;
+    /* padding-top: 10px; */
+}
+@media(max-width: 900px){
+
+}
+
+@media(max-width: 1025px){
+   .p1{
+       font-size: 21px;
+   }
+
+   .tih3{
+       font-size: 30px;
+   }
+}
+
+@media(max-width: 800px){
+    .menu ul{
+        display: none;
+    }
+
+    h1{
+        display: none;
+    }
+
+    .icon{
+        margin-left: 48%;
+        margin-top: 7px;
+    }
+
+    label[for="bt-menu"]{
+        display: block;
+    }
+}
